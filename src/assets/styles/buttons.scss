@@ -1,0 +1,19 @@
+.btn {
+  color: var(--primary-color);
+
+  &:hover {
+    color: var(--primary-color);
+  }
+
+  &:active {
+    color: var(--primary-color);
+  }
+}
+
+.btn-blue {
+  background-color: var(--blue);
+}
+
+.btn-red {
+  background-color: var(--red);
+}

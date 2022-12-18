@@ -1,0 +1,8 @@
+.layoutpublicbody{ min-height: 100vh; margin:0; }
+
+.layoutpublicheader{ min-height:50px;  }
+.layoutpublicfooter{ min-height:50px; background-color: lightgray; }
+
+/* The article fills all the space between header & footer */
+.layoutpublicbody{ display:flex; flex-direction:column; }
+.layoutpublicarticle{ flex:1; }
